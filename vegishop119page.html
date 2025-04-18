@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegishop page</title>
+    <style>
+        header{border: 1px solid gray;}
+        nav{border: 1px solid yellow;}
+section{border: 1px solid red;}
+aside{border: 1px solid blue;}
+</style>
+</head>
+<body>
+   <header>
+    <h1><a href="#">Vegi Shop</a></h1>
+    </header>
+    <nav>
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About us</li></a>
+        <a href="#"><li>News</li></a>
+        <a href="#"><li>My Account</li></a>
+        <a href="#"><li>Contacts</li></a>
+    </ul>
+</nav>
+
+<aside id="left">
+    <h4>카테고리</h4>
+    <ul>
+        <a href="apple.html" target="iframe1"><li>사과</li></a>
+        <a href="orange.html" target="iframe1"><li>오렌지</li></a>
+        <a href="banana.html" target="iframe1"><li>바나나</li></a>
+        <a href="delivery.html" target="iframe1"><li>과일바구니</li></a>
+        <a href="salad.html" target="iframe1"><li>과일 샐러드</li></a>
+    </ul>
+    </aside>
+
+    <section>
+    <iframe name="iframe1" src="main.html" width="700" height="400">
+
+    </iframe>
+</section>
+
+<aside id="right">
+<h4>Shopping Cart</h4>
+<div>현재 쇼핑카트에 물품이 없습니다.</div>
+<a href="#">쇼핑카트 보기</a>
+
+<h4>Log in</h4>
+<form action="#" method="get">
+아이디: 
+<input type="text">
+<br>
+패스워드
+<input type="password">
+<br>
+<input type="submit" value="로그인">
+<input type="reset" value="초기화">
+</form>
+</aside>
+
+</body>
+</html>
