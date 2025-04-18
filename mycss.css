@@ -1,4 +1,4 @@
-body{font-family: "Poetsen One", olor: blue;sans-serif;
+body{font-family: "Poetsen One";
 text-decoration: none;}
 html,body{
     height: 100%;  
@@ -8,17 +8,8 @@ html,body{
     aside#right{float: right; width: 22%; height: 70%;}
     footer{clear: both;}
     
-h1> a{ color: olive; text-shadow: 5px 5px 5px gray;
-    text-decoration: none;}
-
-p:hover{background-color: skyblue;
-text-decoration: underline;}
-h3{text-align: center;}
-div{text-align: justify;
-text-transform: uppercase;
-column-gap: 40px;
-column-count: 2;
-column-rule: 4px solid skyblue;
-letter-spacing: 2px;
-
-}
+h1>a { color: olive; 
+    text-decoration: none;
+ text-align: center;}
+   
+ 
