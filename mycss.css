@@ -1,5 +1,6 @@
-body{font-family: "Poetsen One";
-text-decoration: none;}
+*{font-family: "Poetsen One";
+text-decoration: none;
+color: olive; }
 html,body{
     height: 100%;  
     text-decoration: none;}
@@ -11,5 +12,6 @@ html,body{
 h1>a { color: olive; 
     text-decoration: none;
  text-align: center;}
-   
- 
+   #navew{list-style: none;text-align: center;
+    padding: 0px 10px; border-top: 1px solid red; border-bottom: 1px solid red;}
+ #navew li{display: inline;margin: 30px; letter-spacing: 10px; text-transform: uppercase; padding: 0 10px}

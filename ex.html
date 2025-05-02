@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ background: #ffff url('coffe.jpg') no-repeat right bottom;
+    background-attachment: fixed;
+background-size: 200px 200px;}
+        img{
+            border-radius: 250px;
+        }
+        #target1{
+            width: 50%;
+            height: 70px;
+            background-color: yellow;
+            margin-top: 50px;
+            margin-bottom: 70px;
+            margin-left: 100px;
+            padding-top: 30px;
+            padding-left: 30px;
+
+        }
+        #target2{
+            width: 30%;
+            height: 100px;
+            background-color: green;
+
+        }
+        a:link { color: green; text-decoration: none;}
+        a:visited{color: red; text-decoration: none;}
+        a:hover{color: orange; text-decoration: none; background-color: green; padding: 40px;}
+        a:active{color: black; text-decoration: none;}
+        ul{list-style: none;text-align: center;
+        padding: 0px 10px;}
+        ul li{display: inline;margin: 30px; letter-spacing: 10px;}
+        table,th,td{border: 1px solid blue;
+        }
+        table{border-collapse: collapse; width: 100%; }
+        td{text-align: center;}
+        th{background-color: blue; color: white;}
+        tr:hover{background-color: tomato;
+        color: white;}
+
+    </style>
+</head>
+<body>
+    <h1>쇼핑리스트</h1>
+    <p>다음 목록은<strong>반드시</strong>구입해주세요.</p>
+<ul>
+    <li>우유</li>
+    <li>치즈</li>
+    <li>식빵</li>
+</ul>
+<img src="coffee.webp" width="50%">
+    <p id="target1">요소의 크기와 높이#1</p>
+    <div id="target2">요소의 크기와 높이</div>
+<p style="text-align:center;">
+    <em>중앙정렬</em>
+</p>
+<p style="width: 50%; border: 1px solid red; margin-left: auto; margin-right: auto;">블록요소의 중앙정렬</p>
+<br>
+<br>
+<a href="#">링크스타일</a>
+<h1>테이블 스타일</h1>
+<table>
+    <thead>
+        <tr><th>학번</th><th>이름</th><th>성적</th><th>학점</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>bill</td><td>98</td><td>A+</td></tr>
+        <tr><td>2</td><td>steve</td><td>89</td><td>B+</td></tr>
+        <tr><td>3</td><td>Larry</td><td>93</td><td>A-</td></tr>
+
+    </tbody>
+</table>
+</body>
+</html> 
