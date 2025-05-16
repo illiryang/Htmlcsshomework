@@ -13,5 +13,78 @@ h1>a { color: olive;
     text-decoration: none;
  text-align: center;}
    #navew{list-style: none;text-align: center;
-    padding: 0px 10px; border-top: 1px solid red; border-bottom: 1px solid red;}
+    padding: 0px 10px; border-top: 1px solid olive; border-bottom: 1px solid olive;}
  #navew li{display: inline;margin: 30px; letter-spacing: 10px; text-transform: uppercase; padding: 0 10px}
+img#main{transition: transform 5s;}
+ img#main:hover{transform: translate(0px,100px);}
+ul.nav{list-style: none;
+text-align: center;
+border-top: 1px solid olive;
+border-bottom: 1px olive;}
+aside h4{text-align: center;}
+p{text-align: center;}
+footer ul{
+    list-style: none;
+    text-align: center;
+ 
+    padding: 10px 0;
+  }
+
+  footer ul li{
+    display: inline;
+    text-transform:  uppercase;
+    letter-spacing:  3px;
+    padding:5px;
+  }
+  input, select{
+    margin:3px;
+    padding:3px;
+    border: 2px solid cadetblue;
+    border-radius: 50px;
+  }
+  
+  input[type=text]{
+    color: black;
+  }
+  input[type=password]{
+    color: black;
+  }
+  
+  
+  input[type=text]:hover{
+    background-color: bisque;
+  }
+  input[type=password]:hover{
+    background-color: bisque;
+  }
+  
+  input[type=text]:focus{
+    font-size: 1.2em;
+  }
+  
+  input[type=submit]{
+    background-color: cadetblue;
+    border:none;
+    color:white;
+    padding: 10px 32px;
+  }
+  input[type=button]{
+    background-color: cadetblue;
+    border:none;
+    color:white;
+    padding: 5px 10px;
+  
+  }
+  input[type=reset]{
+    background-color: white;
+    border:2px solid cadetblue;
+    color:cadetblue;
+    padding: 10px 32px;
+  }
+  aside#left ul{list-style: none;
+text-align: center;}
+
+aside#left ul li:hover{background-color: olive;
+    padding:10px;
+    color:white;}
+   
